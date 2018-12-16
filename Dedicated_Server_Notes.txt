@@ -1,0 +1,21 @@
+in the installimage script if you want 1 disk with ~6TB set SWRAID 1 and 
+SWRAIDLEVEL 0 I changed / to 5gb then left /home as all
+
+1. Update server first apt-update && apt-upgrade
+2. Install sudo apt-get install sudo
+3. add a user then add that user to the sudoers file
+4. make sure you can ssh in with that user before doing #5
+5. turn off root logins in sshd_config and change ssh port for security
+6. install proftpd with sudo apt-get install proftpd
+7. use the config for proftpd I give you just change around what you need
+
+adduser username --home /home/username --shell /bin/bash username
+
+/bin/bash for ssh access as well as ftp
+/bin/false for just ftp access
+
+if you need to change a users shell for whatever reason it is in /etc/passwd but you will need to use sudo to edit it.
+
+enter in a password
+
+then just use defaults and hit enter a bunch thats it
