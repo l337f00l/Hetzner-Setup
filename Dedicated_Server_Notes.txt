@@ -9,7 +9,7 @@ SWRAIDLEVEL 0 I changed / to 5gb then left /home as all
 6. install proftpd with sudo apt-get install proftpd
 7. use the config for proftpd I give you just change around what you need
 
-adduser username --home /home/username --shell /bin/bash username
+adduser username --home /home/username --shell /bin/bash
 
 /bin/bash for ssh access as well as ftp
 /bin/false for just ftp access
