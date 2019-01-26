@@ -24,4 +24,4 @@ func_process_folder_set(){
 }
 
 # -- call the function above with this:
-func_process_folder_set "/media/sdm1/l337f00l/Music-Stage" "/media/sdm1/l337f00l/AA-Music01/"
+func_process_folder_set "/home/asthenia/Movies-Stage" "/home/asthenia/AA-DCC06"
